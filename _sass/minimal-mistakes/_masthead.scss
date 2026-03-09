@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .masthead {
-  position: sticky;               // sticky on scroll
+  position: sticky;               
   top: 0;
   z-index: 100;
   border-bottom: 1px solid $border-color;
@@ -15,7 +15,7 @@
   // glass effect
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  background-color: ;
+  background-color: rgba(255,255,255,0.7);
 
   &__inner-wrap {
     @include clearfix;
@@ -23,9 +23,9 @@
     padding: 1em;
     max-width: 100%;
     display: flex;
-    justify-content: center;  // center nav content
-    align-items: center;      // vertically center logo + nav
-    flex-wrap: wrap;          // wrap on small screens
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -35,23 +35,25 @@
     nav {
       z-index: 10;
       display: flex;
-      justify-content: center; // center nav links
-      gap: 1em;               // spacing between links
-      flex-wrap: wrap;         // wrap on small screens
+      justify-content: center;
+      width: 100%;
     }
 
     a {
       text-decoration: none !important;
       color: #2d2d2d !important;
-      font-weight: 700;
+      font-weight: 500;
       transition: color 0.3s ease;
 
       &:hover {
-        color: #74252e !important; // burgundy on hover
+        color: #74252e !important;
       }
     }
   }
 }
+
+
+/* LOGO */
 
 .site-logo img {
   max-height: 2rem;
@@ -68,6 +70,9 @@
   font-size: $type-size-8;
 }
 
+
+/* NAVIGATION MENU */
+
 .masthead__menu {
   width: 100%;
   clear: both;
@@ -81,18 +86,46 @@
     padding: 0;
     list-style-type: none;
     display: flex;
-    justify-content: center; // center nav items
-    flex-wrap: wrap;         // wrap on small screens
-    gap: 1em;                // spacing
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
   }
 }
+
+
+/* MENU ITEMS */
 
 .masthead__menu-item {
   display: block;
   white-space: nowrap;
 
   &--lg {
-    justify-content: center; // center items
     font-weight: 500;
   }
+}
+
+
+/* GREEDY NAV (actual nav container used by theme) */
+
+.greedy-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.greedy-nav .visible-links {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+
+/* REMOVE PINK ACTIVE BACKGROUND */
+
+.greedy-nav a {
+  background: transparent !important;
+}
+
+.greedy-nav .active > a {
+  background: transparent !important;
 }
