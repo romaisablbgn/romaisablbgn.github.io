@@ -24,7 +24,7 @@
 
     &:hover {
       color: $masthead-link-color-hover; // burgundy
-      background: transparent;           // remove pinkish bg
+      background: transparent !important;           // remove pinkish bg
     }
   }
 
@@ -52,7 +52,7 @@
           bottom: 0;
           height: 2px;
           width: 100%;
-          background: $primary-color;
+          background: transparent !important;
           transform: scaleX(0);
           transition: transform 0.3s ease;
         }
