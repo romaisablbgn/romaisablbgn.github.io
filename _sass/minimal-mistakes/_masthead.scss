@@ -3,25 +3,29 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: sticky;               // sticky on scroll
+  top: 0;
+  z-index: 100;
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
-  z-index: 20;
+
+  // glass effect
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.7);
 
   &__inner-wrap {
     @include clearfix;
     margin-inline: auto;
     padding: 1em;
     max-width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;  // center nav content
+    align-items: center;      // vertically center logo + nav
+    flex-wrap: wrap;          // wrap on small screens
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -30,10 +34,21 @@
 
     nav {
       z-index: 10;
+      display: flex;
+      justify-content: center; // center nav links
+      gap: 1em;               // spacing between links
+      flex-wrap: wrap;         // wrap on small screens
     }
 
     a {
-      text-decoration: none;
+      text-decoration: none !important;
+      color: #2d2d2d !important;
+      font-weight: 700;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #74252e !important; // burgundy on hover
+      }
     }
   }
 }
@@ -43,13 +58,9 @@
 }
 
 .site-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: center;
-  align-self: center;
+  align-items: center;
   font-weight: bold;
-  // z-index: 20;
 }
 
 .site-subtitle {
@@ -58,34 +69,29 @@
 }
 
 .masthead__menu {
-  float: inline-start;
-  margin-inline: 0;
   width: 100%;
   clear: both;
 
   .site-nav {
     margin-inline-start: 0;
-
-    @include breakpoint($small) {
-      float: inline-end;
-    }
   }
 
   ul {
     margin: 0;
     padding: 0;
-    clear: both;
     list-style-type: none;
+    display: flex;
+    justify-content: center; // center nav items
+    flex-wrap: wrap;         // wrap on small screens
+    gap: 1em;                // spacing
   }
 }
 
 .masthead__menu-item {
   display: block;
-  list-style-type: none;
   white-space: nowrap;
 
   &--lg {
-    padding-inline-end: 2em;
     font-weight: 700;
   }
 }
