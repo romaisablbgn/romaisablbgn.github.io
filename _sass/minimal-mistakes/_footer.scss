@@ -36,11 +36,17 @@
     }
   }
 
+  /* Icon colors */
   .fas,
   .fab,
   .far,
   .fal {
-    color: $muted-text-color;
+    color: #2d2d2d; // dark grey default
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #74252e; // burgundy on hover
+    }
   }
 }
 
@@ -78,6 +84,15 @@
   .social-icons {
     a {
       white-space: nowrap;
+      /* For SVGs inside social icons */
+      svg {
+        fill: #2d2d2d;
+        transition: fill 0.3s ease;
+
+        &:hover {
+          fill: #74252e;
+        }
+      }
     }
   }
 }
