@@ -118,7 +118,7 @@ analytics:
 # Site Author
 author:
   name             : "Romaisa Balabagan"
-  avatar           : "romaisa-profile.webp"
+  avatar           : "/assets/images/romaisa-profile.webp"
   bio              : "Learning data science @ 24 and documenting my journey with Python, R, SQL, and more."
   location         : "Quezon City, Philippines"
   email            :
@@ -129,12 +129,12 @@ author:
     - label: "Facebook"
       icon: "fab fa-brands fa-facebook"
       url: "https://facebook.com/romaisablbgn"
-    - label: "GitHub"
-      icon: "fab fa-brands fa-github"
-      url: "https://github.com/romaisablbgn"
     - label: "Instagram"
       icon: "fab fa-brands fa-instagram"
       url: "https://instagram.com/romaisablbgn"
+    - label: "GitHub"
+      icon: "fab fa-brands fa-github"
+      url: "https://github.com/romaisablbgn"
 
 # Site Footer
 footer:
@@ -145,12 +145,12 @@ footer:
     - label: "Facebook"
       icon: "fab fa-brands fa-facebook"
       url: "https://facebook.com/romaisablbgn"
-    - label: "GitHub"
-      icon: "fab fa-brands fa-github"
-      url: "https://github.com/romaisablbgn"
     - label: "Instagram"
       icon: "fab fa-brands fa-instagram"
       url: "https://instagram.com/romaisablbgn"
+    - label: "GitHub"
+      icon: "fab fa-brands fa-github"
+      url: "https://github.com/romaisablbgn
   since: "2026"
 
 
