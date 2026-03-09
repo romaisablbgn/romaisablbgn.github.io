@@ -15,7 +15,7 @@
   // glass effect
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: ;
 
   &__inner-wrap {
     @include clearfix;
@@ -92,6 +92,7 @@
   white-space: nowrap;
 
   &--lg {
-    font-weight: 700;
+    justify-content: center; // center items
+    font-weight: 500;
   }
 }
