@@ -8,12 +8,12 @@
   margin-inline: 0;
   width: 100%;
   margin-top: 3em;
-  color: $muted-text-color;
+  color: $muted-text-color !important;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: $footer-background-color;
+  background-color: $footer-background-color !important;
 
   footer {
     @include clearfix;
@@ -28,71 +28,72 @@
   }
 
   a {
-    color: inherit;
-    text-decoration: none;
+    color: inherit !important;
+    text-decoration: none !important;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: underline !important;
     }
   }
 
-  /* Icon colors */
+  /* Font Awesome icons */
   .fas,
   .fab,
   .far,
   .fal {
-    color: #2d2d2d; // dark grey default
-    transition: color 0.3s ease;
+    color: #2d2d2d !important; // dark grey default
+    transition: color 0.3s ease !important;
 
     &:hover {
-      color: #74252e; // burgundy on hover
+      color: #74252e !important; // burgundy on hover
+    }
+  }
+
+  /* Social icons SVGs */
+  .social-icons {
+    a {
+      white-space: nowrap;
+
+      svg {
+        fill: #2d2d2d !important; // dark grey default
+        transition: fill 0.3s ease !important;
+
+        &:hover {
+          fill: #74252e !important; // burgundy on hover
+        }
+      }
     }
   }
 }
 
 .page__footer-copyright {
-  font-family: $global-font-family;
-  font-size: $type-size-7;
+  font-family: $global-font-family !important;
+  font-size: $type-size-7 !important;
 }
 
 .page__footer-follow {
   ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none !important;
   }
 
   li {
-    display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
-    text-transform: uppercase;
+    display: inline-block !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-family: $sans-serif-narrow !important;
+    font-size: $type-size-6 !important;
+    text-transform: uppercase !important;
   }
 
   li + li::before {
-    content: "";
-    padding-inline-end: 5px;
+    content: "" !important;
+    padding-inline-end: 5px !important;
   }
 
   a {
-    padding-inline-end: 10px;
-    font-weight: bold;
-  }
-
-  .social-icons {
-    a {
-      white-space: nowrap;
-      /* For SVGs inside social icons */
-      svg {
-        fill: #2d2d2d;
-        transition: fill 0.3s ease;
-
-        &:hover {
-          fill: #74252e;
-        }
-      }
-    }
+    padding-inline-end: 10px !important;
+    font-weight: bold !important;
   }
 }
