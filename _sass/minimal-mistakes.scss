@@ -35,38 +35,3 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
-
-/* Center navigation links */
-.site-header .site-nav {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
-
-/* Center footer content */
-.page__footer footer {
-  text-align: center;
-}
-.page__footer-follow ul {
-  justify-content: center;
-  display: flex;
-  gap: 1em;
-}
-
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 9999;
-
-  /* Glass effect */
-  background-color: rgba(255, 255, 255, 0.7); // translucent white
-  backdrop-filter: blur(10px); // blur content behind nav
-  -webkit-backdrop-filter: blur(10px);
-
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-
-  /* Optional: add shadow on scroll for style */
-  &.scrolled {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-}
