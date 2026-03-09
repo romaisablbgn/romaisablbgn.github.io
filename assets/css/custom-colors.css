@@ -1,0 +1,18 @@
+/* custom-colors.css */
+
+/* Make all icons dark grey by default */
+.icon, /* generic icon class */
+i, /* <i> tags for font icons */
+svg { /* SVG icons */
+  color: #2d2d2d; /* dark grey for font icons */
+  fill: #2d2d2d;  /* dark grey for SVG icons */
+  transition: all 0.3s ease; /* smooth hover transition */
+}
+
+/* Change icon color on hover */
+.icon:hover,
+i:hover,
+svg:hover {
+  color: #74252e; /* burgundy */
+  fill: #74252e;
+}
