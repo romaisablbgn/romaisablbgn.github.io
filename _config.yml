@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Romaisa"
 title_separator          : "|"
-subtitle                 : "A learning journal for data science"
+subtitle                 : #none
 name                     : "Romaisa"
 description              : "A learning journal for data science covering Python, R, SQL, and practical tools for working with data."
 url                      : "https://romaisablbgn.github.io"
