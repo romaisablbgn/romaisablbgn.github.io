@@ -27,6 +27,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "romaisablbgn/romaisablbgn.github.io"
 teaser                   : #none
 logo                     : #none
+favicon                  :  "/assets/images/romaisa-profile.webp"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true
 words_per_minute         : 200
