@@ -200,10 +200,11 @@
   }
 
   .author__urls {
-    span.label {
-      padding-inline-start: 5px;
-      color: #2d2d2d; // default dark gray
-      transition: color 0.3s ease;
+  span.label {
+    padding-inline-start: 5px;
+    color: #2d2d2d; // default dark gray
+    transition: color 0.3s ease;
+  }
 
   &:hover {
     color: #74252e; // burgundy on hover
