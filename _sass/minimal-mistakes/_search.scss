@@ -24,9 +24,9 @@
   }
 }
 
-.search-icon {
-  width: 20px;
-  height: 20px;
+/* Resize Font Awesome search icon */
+.fas.fa-search {
+  font-size: 16px; // adjust as needed (smaller = smaller icon)
 }
 
 .search-content {
@@ -47,32 +47,31 @@
     @include breakpoint($x-large) {
       max-width: $max-width;
     }
-
   }
 
   &__form {
     background-color: transparent;
   }
 
-.search-input {
-  display: block;
-  margin-bottom: 0;
-  padding: 0;
-  border: none;
-  outline: none;
-  box-shadow: none;
-  background-color: transparent;
-  font-family: 'Instrument Serif', serif;
-  font-size: $type-size-5;
+  .search-input {
+    display: block;
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    font-family: 'Instrument Serif', serif;
+    font-size: $type-size-5;
 
-  @include breakpoint($large) {
-    font-size: $type-size-4;
-  }
+    @include breakpoint($large) {
+      font-size: $type-size-4;
+    }
 
-  @include breakpoint($x-large) {
-    font-size: $type-size-4;
+    @include breakpoint($x-large) {
+      font-size: $type-size-4;
+    }
   }
-}
 
   &.is--visible {
     display: block;
