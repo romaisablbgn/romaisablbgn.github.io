@@ -15,12 +15,13 @@
     }
 
     h2 {
-      font-size: 1.25rem;
-      margin: 0.5rem 0;
+      font-size: 1rem; // smaller than before
+      margin: 0.25rem 0; // less spacing
+      line-height: 1.2;
     }
 
     p {
-      font-size: 1rem;
+      font-size: 0.9rem;
       color: #555;
     }
   }
