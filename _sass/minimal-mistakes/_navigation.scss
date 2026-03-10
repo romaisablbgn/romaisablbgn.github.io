@@ -5,12 +5,10 @@
 .greedy-nav {
   position: relative;
   display: flex;
-  justify-content: center; // center nav horizontally
-  align-items: center;     // vertical align
+  justify-content: center;
+  align-items: center;
   min-height: $nav-height;
-  background: rgba(255, 255, 255, 0.7); // semi-transparent for glass effect
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: transparent;  
   z-index: 100;
 
   a {
