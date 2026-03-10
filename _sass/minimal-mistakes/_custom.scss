@@ -1,0 +1,27 @@
+.blog-archive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+
+  .blog-card {
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    border-radius: 8px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin: 0.5rem 0;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+    }
+  }
+}
