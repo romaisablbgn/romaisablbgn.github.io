@@ -241,18 +241,18 @@
       display: flex;
       align-items: center;
       gap: 0.25em;
-      color: #2d2d2d; /* default dark gray */
+      color: #2d2d2d !important; /* default dark gray */
       font-size: $type-size-5;
       text-decoration: none; /* remove underline */
       transition: color 0.3s ease;
 
       i {
-        color: #2d2d2d;
+        color: #2d2d2d !important;
         transition: color 0.3s ease;
       }
 
       span.label {
-        color: #2d2d2d;
+        color: #2d2d2d !important;
         transition: color 0.3s ease;
       }
 
@@ -271,7 +271,7 @@
     /* non-links (like location icon) */
     i,
     span.p-locality {
-      color: #2d2d2d;
+      color: #2d2d2d !important;
       transition: color 0.3s ease;
     }
 
