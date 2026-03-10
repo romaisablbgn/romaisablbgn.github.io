@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "dirt" #customized
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : #none
-title_separator          : #none
-subtitle                 : # site tagline that appears below site title in masthead
+title                    : "Romaisa"
+title_separator          : "|"
+subtitle                 : "A learning journal for data science"
 name                     : "Romaisa"
 description              : "A learning journal for data science covering Python, R, SQL, and practical tools for working with data."
 url                      : "https://romaisablbgn.github.io"
@@ -27,7 +27,6 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "romaisablbgn/romaisablbgn.github.io"
 teaser                   : #none
 logo                     : #none
-favicon                  :  "/assets/images/romaisa-profile.webp"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true
 words_per_minute         : 200
