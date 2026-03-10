@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: About
 permalink: /about/
 sidebar: false  # hides the sidebar
