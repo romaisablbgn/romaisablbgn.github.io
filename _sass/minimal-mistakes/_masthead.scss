@@ -56,17 +56,18 @@
 /* LOGO */
 
 .site-logo img {
+  display: none;
   max-height: 2rem;
 }
 
 .site-title {
-  display: flex;
+  display: none;
   align-items: center;
   font-weight: bold;
 }
 
 .site-subtitle {
-  display: block;
+  display: none;
   font-size: $type-size-8;
 }
 
