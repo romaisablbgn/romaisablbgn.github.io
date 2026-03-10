@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Romaisa"
 title_separator          : "|"
-subtitle                 : #none
+subtitle                 : "Learning journal on Python, R, SQL, and more"
 name                     : "Romaisa"
 description              : "A learning journal for data science covering Python, R, SQL, and practical tools for working with data."
 url                      : "https://romaisablbgn.github.io"
@@ -119,7 +119,7 @@ analytics:
 author:
   name             : "Romaisa Balabagan"
   avatar           : "/assets/images/romaisa-profile.webp"
-  bio              : "Learning data science at 24 and documenting my journey with Python, R, SQL, and more."
+  bio              : "8–5 employee, open-source fan, web designer, diving into Python, R, SQL, and data science."
   location         : "Quezon City, Philippines"
   email            :
   links:
