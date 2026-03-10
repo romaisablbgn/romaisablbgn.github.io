@@ -68,7 +68,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -123,6 +123,9 @@ author:
   location         : "Quezon City, Philippines"
   email            :
   links:
+    - label: "GitHub"
+      icon: "fab fa-brands fa-github"
+      url: "https://github.com/romaisablbgn"
     - label: "LinkedIn"
       icon: "fab fa-brands fa-linkedin-in"
       url: "https://linkedin.com/in/romaisablbgn"
@@ -132,9 +135,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-brands fa-instagram"
       url: "https://instagram.com/romaisablbgn"
-    - label: "GitHub"
-      icon: "fab fa-brands fa-github"
-      url: "https://github.com/romaisablbgn"
+
 
 # Site Footer
 footer:
@@ -142,12 +143,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-brands fa-linkedin-in"
       url: "https://linkedin.com/in/romaisablbgn"
-    - label: "Facebook"
-      icon: "fab fa-brands fa-facebook"
-      url: "https://facebook.com/romaisablbgn"
-    - label: "Instagram"
-      icon: "fab fa-brands fa-instagram"
-      url: "https://instagram.com/romaisablbgn"
     - label: "GitHub"
       icon: "fab fa-brands fa-github"
       url: "https://github.com/romaisablbgn"
