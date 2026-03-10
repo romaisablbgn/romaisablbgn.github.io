@@ -15,7 +15,25 @@
     {% include_cached masthead.html locale=locale %}
 
     <div class="initial-content">
-      {{ content }}
+
+      {%- if page.title == "Blog" -%}
+        <div class="blog-archive">
+          {% for post in site.posts %}
+            <article class="blog-card">
+              {% if post.image %}
+                <a href="{{ post.url | relative_url }}">
+                  <img src="{{ post.image }}" alt="{{ post.title }}">
+                </a>
+              {% endif %}
+              <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+              <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
+            </article>
+          {% endfor %}
+        </div>
+      {%- else -%}
+        {{ content }}
+      {%- endif -%}
+
       {% include after-content.html %}
     </div>
 
