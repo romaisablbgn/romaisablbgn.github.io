@@ -12,7 +12,6 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
-  // glass effect
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   background-color: rgba(255,255,255,0.7);
@@ -23,7 +22,7 @@
     padding: 1em;
     max-width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between; // <-- moves menu left, icons right
     align-items: center;
     flex-wrap: wrap;
     font-family: $sans-serif-narrow;
@@ -33,10 +32,17 @@
     }
 
     nav {
-      z-index: 10;
       display: flex;
-      justify-content: center;
-      width: 100%;
+      justify-content: flex-start; // menu items stick to left
+      align-items: center;
+      width: auto; // let it shrink if needed
+    }
+
+    .masthead__icons {
+      display: flex;
+      gap: 1em;
+      justify-content: flex-end; // search + hamburger right
+      align-items: center;
     }
 
     a {
@@ -87,9 +93,9 @@
     padding: 0;
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; // menu items left
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1.3em; // as you requested
   }
 }
 
@@ -103,30 +109,4 @@
   &--lg {
     font-weight: 500;
   }
-}
-
-
-/* GREEDY NAV (actual nav container used by theme) */
-
-.greedy-nav {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.greedy-nav .visible-links {
-  display: flex;
-  justify-content: center;
-  gap: 1em;
-}
-
-
-/* REMOVE PINK ACTIVE BACKGROUND */
-
-.greedy-nav a {
-  background: transparent !important;
-}
-
-.greedy-nav .active > a {
-  background: transparent !important;
 }
