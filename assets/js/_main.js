@@ -32,6 +32,13 @@ $(document).ready(function () {
     }, 400);
   });
 
+
+   // Hamburger toggle for hidden links
+$(".greedy-nav__toggle").on("click", function () {
+  $(".hidden-links").toggleClass("open");
+});
+
+   
   // Smooth scrolling
   var scroll = new SmoothScroll('a[href*="#"]', {
     offset: 20,
