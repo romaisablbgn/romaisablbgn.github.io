@@ -2,44 +2,90 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/kontradaya.jpg"
+  image: "/images/roma-about-page-header.webp"
+---
+
+# I'm Romaisa — Roma for short
+
+> I’m learning data science.
+
+I didn’t start in tech.  
+I studied Management Accounting, even though I originally wanted something closer to IT.
+
+Right now, I’m preparing for a Master’s in Data Science. I’m trying to learn programming and everything I can through YouTube and books so I don’t feel completely lost when the semester starts.
+
+I’m currently learning:
+- Python  
+- SQL  
+- Statistics  
+
+> I don’t learn fast. I just keep going.
 
 ---
 
-<h2>Mabuhay daigdig!</h2>
+## My Background
 
-Welcome to my blog. I am Albert Yumol but my friends call me ‘bash’. I am a self-proclaimed Linux and open-source junkie. I dream of becoming a storyteller. And this blog is the medium of my prose. Join me in my journey of self-realization through technology and innovation for the Filipino people.
+I currently work full-time at a GOCC here in the Philippines.
 
-<h2>Podcasts I Listen To</h2>
+Before this, I freelanced. Nothing directly related to data. I got into a WordPress course and ended up working with a real estate company in Canada, a gourmet popcorn shop in California that was mid-rebrand after a trademark dispute, and a divorce lawyer in Utah whose site had gone down at the worst possible moment.
 
-99% Invisible
+Later, I joined the Sugar Regulatory Administration as an Administrative Services Officer. I worked on official communications, budget plans, and compliance reports submitted to the Governance Commission on GOCCs.
 
-<blockquote>
-<small>Design is everywhere in our lives, perhaps most importantly in the places where we've just stopped noticing. 99% invisible is a weekly exploration of the process and power of design and architecture. From award winning producer Roman Mars. Learn more at [99percentinvisible.org](https://99percentinvisible.org/). A proud member of Radiotopia, from PRX. Learn more at [radiotopia.fm](https://radiotopia.fm).</small>
-</blockquote>
+Government work demands a specific kind of rigor. Everything has to be traceable. Nothing can be approximated. Precision matters in places nobody will ever see.
 
-DataFramed
+I didn’t expect to find that satisfying. I did.
 
-<blockquote>
-<small>Data Science is one of the fastest growing industries and has been called the « Sexiest job of the 21st Century ». But what exactly is Data Science? In the podcast by DataCamp, Hugo Bowne-Anderson approaches this question from the perspective of what problems Data Science tries to solve instead of what definition fits it best. From automated medical diagnosis and self-driving cars to recommendation systems and climate change, come on a journey with industry and academic experts to explore the inner workings of the industry that will color the 21st century.</small>
-</blockquote>
+The shift toward data started during my time with a fintech compliance consultancy in Germany called Competitive Compliance. I spent eight months doing marketing while absorbing everything around me. Cryptocurrency regulation. AML frameworks.
 
-IRL
+But I kept noticing something.
 
-<blockquote>
-<small>Our online life is real life. We walk, talk, work, LOL and even love on the Internet – but we don’t always treat it like real life. Host Manoush Zomorodi explores this disconnect with stories from the wilds of the Web, and gets to the bottom of online issues that affect us all. Whether it’s privacy breaches, closed platforms, hacking, fake news, or cyber bullying, we the people have the power to change the course of the Internet, keeping it ethical, safe, weird, and wonderful for everyone. IRL is an original podcast from Firefox, the tech company that believes privacy isn’t a policy. It’s a right.</small>
-</blockquote>
+> The people who understood data were the ones making decisions.
 
-<h2>Books that made me</h2>
+I didn’t want to stay on the outside of that.
 
-The Drunkards Walk
+---
 
-<blockquote>
-<small>The story of how randomness and random numbers changed us.</small>
-</blockquote>
+## Why this blog exists
 
-The Elements of Style
+This is where I learn out loud.
 
-<blockquote>
-<small>Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts. This requires not that the writer make all his sentences short, or that he avoid all detail and treat his subjects only in the outline, but that every word tell.</small>
-</blockquote>
+Mostly data science. Sometimes just thoughts.
+
+I write about what I’m studying because writing is how I find out if I actually understand something. If it’s useful to someone else, that’s a bonus.
+
+So what you’ll find here:
+- things I’m learning  
+- things I’m struggling with  
+- things I’m trying to explain to myself  
+
+> Writing helps me check if I actually understand something.
+
+---
+
+## Outside of this
+
+I read a lot. Mostly books about money, behavior, and how people think.
+
+Right now I’m reading *50 Economics Classics* and *Who Moved My Cheese?*  
+On my list are *From Third World to First* and *Man’s Search for Meaning*, which I’ve been putting off for a while.
+
+Lately, I’ve been watching a lot of C-dramas.  
+*Prisoner of Beauty*, *Shine on Me*, *Youthful Glory*, *Perfect Match*, *Snow Fall*, *Princess Royale*.
+
+And recently, I can’t stop thinking about *The Apothecary Diaries*.
+
+---
+
+## If you’re here
+
+You’re probably also figuring things out.
+
+Same.
+
+---
+
+<br>
+
+📧 romaisa@routecollective.com  
+🔗 linkedin.com/in/romaisablbgn  
+📷 instagram.com/romaisablbgn
