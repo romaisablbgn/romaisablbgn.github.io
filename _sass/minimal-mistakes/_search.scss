@@ -26,7 +26,7 @@
 
 /* Resize search icon */
 .fas.fa-search {
-  font-size: 12px; // adjust as needed (smaller = smaller icon)
+  font-size: 14px; // adjust as needed (smaller = smaller icon)
 }
 
 .search-content {
@@ -62,14 +62,14 @@
     box-shadow: none;
     background-color: transparent;
     font-family: 'Instrument Serif', serif;
-    font-size: $type-size-5;
+    font-size: $type-size-3;
 
     @include breakpoint($large) {
-      font-size: $type-size-4;
+      font-size: $type-size-3;
     }
 
     @include breakpoint($x-large) {
-      font-size: $type-size-4;
+      font-size: $type-size-3;
     }
   }
 
