@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: "splash"
+layout: "home"
 excerpt: "I’m Romaisa, Roma for short. I didn’t start in tech but I’m learning data science in public, exploring Python, SQL, and statistics while preparing for a Master’s in Data Science. This blog is where I figure things out out loud, write about what I’m learning, and track my journey step by step. When I’m not coding or reading, I’m binge-watching C-dramas or getting lost in books about money, behavior, and life."
 permalink: /about/
 header:
