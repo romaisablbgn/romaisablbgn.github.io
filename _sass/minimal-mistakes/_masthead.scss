@@ -22,9 +22,9 @@
     padding: 1em;
     max-width: 100%;
     display: flex;
-    justify-content: space-between; // <-- moves menu left, icons right
+    justify-content: space-between; 
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -33,16 +33,9 @@
 
     nav {
       display: flex;
-      justify-content: flex-start; // menu items stick to left
+      justify-content: flex-start; 
       align-items: center;
-      width: auto; // let it shrink if needed
-    }
-
-    .masthead__icons {
-      display: flex;
-      gap: 1em;
-      justify-content: flex-end; // search + hamburger right
-      align-items: center;
+      width: auto; 
     }
 
     a {
@@ -53,6 +46,49 @@
 
       &:hover {
         color: #74252e !important;
+      }
+    }
+
+    /* RIGHT SIDE: search + hamburger */
+    .masthead__icons {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      margin-left: auto; 
+
+      .search__toggle,
+      .greedy-nav__toggle {
+        font-size: 14px;
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .greedy-nav__toggle .navicon {
+        width: 18px;
+        height: 2px;
+        background: #2d2d2d;
+        position: relative;
+
+        &::before,
+        &::after {
+          content: "";
+          width: 18px;
+          height: 2px;
+          background: #2d2d2d;
+          position: absolute;
+          left: 0;
+        }
+
+        &::before {
+          top: -6px;
+        }
+        &::after {
+          top: 6px;
+        }
       }
     }
   }
@@ -94,8 +130,8 @@
     list-style-type: none;
     display: flex;
     justify-content: flex-start; // menu items left
-    flex-wrap: wrap;
-    gap: 1.3em; // as you requested
+    flex-wrap: nowrap; // row layout
+    gap: 1.3em; // as requested
   }
 }
 
@@ -108,5 +144,34 @@
 
   &--lg {
     font-weight: 500;
+  }
+}
+
+
+/* GREEDY NAV / dropdown */
+
+.greedy-nav .hidden-links {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  display: none; // toggle via JS
+  flex-direction: column;
+  padding: 0.5em 0;
+
+  li {
+    padding: 0.5em 1em;
+
+    a {
+      color: $masthead-link-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $masthead-link-color-hover;
+      }
+    }
   }
 }
