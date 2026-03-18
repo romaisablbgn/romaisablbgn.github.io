@@ -34,10 +34,21 @@ $(document).ready(function () {
 
 
    // Hamburger toggle for hidden links
-$(".greedy-nav__toggle").on("click", function () {
-  $(".hidden-links").toggleClass("open");
-});
+$(document).ready(function () {
+  $(".greedy-nav__toggle").on("click", function () {
+    // toggle the hidden menu
+    $(".greedy-nav .hidden-links").slideToggle(200);
+    $(this).toggleClass("open"); 
+  });
 
+  // Optional: close dropdown when clicking outside
+  $(document).on("click", function (e) {
+    if (!$(e.target).closest(".greedy-nav").length) {
+      $(".greedy-nav .hidden-links").slideUp(200);
+      $(".greedy-nav__toggle").removeClass("open");
+    }
+  });
+});
    
   // Smooth scrolling
   var scroll = new SmoothScroll('a[href*="#"]', {
