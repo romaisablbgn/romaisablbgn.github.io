@@ -21,16 +21,14 @@ I’m currently learning:
 - SQL  
 - Statistics  
 
-> I don’t learn fast. I just keep going.
-
 
 ## My Background
 
-I currently work full-time at a GOCC here in the Philippines.
+I currently work full-time at a goverment corporation here in the Philippines.
 
 Before this, I was freelancing but nothing directly related to data. I got into a WordPress course and ended up designing websites with a real estate company in Canada, a gourmet popcorn shop in California, and a divorce lawyer in Utah, and a web design agency in New York.
 
-Later, I joined the Sugar Regulatory Administration as an Administrative Services Officer. I worked on official communications, budget plans, and compliance reports submitted to the Governance Commission on GOCCs. The shift toward data started when I worked with a fintech compliance consultancy in Germany. I spent eight months doing marketing while absorbing everything around me. Cryptocurrency regulation. AML frameworks.
+The shift toward data started when I worked remotely with a fintech compliance consultancy in Germany. I spent eight months doing marketing while absorbing everything about EU regulations and AML frameworks.
 
 But I kept noticing something.
 
@@ -52,8 +50,6 @@ So what you’ll find here:
 - things I’m struggling with  
 - things I’m trying to explain to myself  
 
-> Writing helps me check if I actually understand something.
-
 
 ## Interests/Hobbies
 
@@ -67,7 +63,7 @@ Lately, I’ve been watching a lot of C-dramas.
 
 And recently, I can’t stop thinking about *The Apothecary Diaries*.
 
-Let's stay connected on [LinkedIn][LinkedIn] and [instagram] [instagram].
+Let's stay connected on [LinkedIn][LinkedIn] and [instagram][instagram].
 
 [LinkedIn]: https://linkedin.com/in/romaisablbgn
 [instagram]:   https://instagram.com/romaisablbgn
