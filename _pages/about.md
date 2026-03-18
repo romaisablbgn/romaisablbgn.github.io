@@ -7,7 +7,7 @@ header:
   image: "assets/images/roma-about-page-header.jpg"
 ---
 
-# I'm Romaisa - Roma for short
+# Hi! I'm Romaisa
 
 > I’m learning data science.
 
