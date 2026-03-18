@@ -4,7 +4,7 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
 
-    <!-- LEFT SIDE: logo + visible menu items -->
+    <!-- LEFT: logo + menu -->
     <div class="masthead__menu-left">
       {% unless logo_path == empty %}
         <a class="site-logo" href="{{ '/' | relative_url }}">
@@ -15,18 +15,18 @@
       <ul class="visible-links">
         {%- for link in site.data.navigation.main -%}
           <li class="masthead__menu-item">
-            <a
-              href="{{ link.url | relative_url }}"
-              {% if link.description %} title="{{ link.description }}"{% endif %}
-              {% if link.target %} target="{{ link.target }}"{% endif %}
-            >{{ link.title }}</a>
+            <a href="{{ link.url | relative_url }}"
+               {% if link.description %} title="{{ link.description }}"{% endif %}
+               {% if link.target %} target="{{ link.target }}"{% endif %}>
+              {{ link.title }}
+            </a>
           </li>
         {%- endfor -%}
       </ul>
     </div>
 
-    <!-- RIGHT SIDE: search + hamburger -->
-    <div class="masthead__menu-right">
+    <!-- RIGHT: search + hamburger -->
+    <div class="masthead__menu-right masthead__icons">
       {% if site.search == true %}
       <button class="search__toggle" type="button">
         <span class="visually-hidden">{{ site.data.ui-text[locale].search_label | default: "Toggle search" }}</span>
