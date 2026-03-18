@@ -63,7 +63,7 @@ Lately, I’ve been watching a lot of C-dramas.
 
 And recently, I can’t stop thinking about *The Apothecary Diaries*.
 
-Let's stay connected on [LinkedIn][LinkedIn] and [instagram][instagram].
+Let's stay connected on [LinkedIn][LinkedIn] and [Instagram][instagram].
 
 [LinkedIn]: https://linkedin.com/in/romaisablbgn
 [instagram]:   https://instagram.com/romaisablbgn
