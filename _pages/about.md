@@ -55,7 +55,7 @@ So what you’ll find here:
 > Writing helps me check if I actually understand something.
 
 
-## Outside of this
+## Interests/Hobbies
 
 I read a lot. Mostly books about money, behavior, and how people think.
 
