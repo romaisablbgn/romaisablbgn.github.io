@@ -37,9 +37,14 @@
   --brand-pink: #f9eaed;
   --brand-pink-soft: #fcf5f6;
   --highlight-color: rgba(116, 37, 46, 0.16);
+  --link-color: var(--brand-burgundy);
+  --link-hover-color: var(--brand-burgundy-dark);
+  --header-title-color: var(--brand-burgundy);
+  --footer-text-color: #6f4f55;
   --font-family-base: "Mulish";
   --font-family-display: "Instrument Serif";
   --font-size-base: 18px;
+  --display-min-size: 30px;
   --content-max-inline-size: 620px;
   --content-padding: 20px;
   --focus-color: var(--brand-burgundy);
@@ -53,7 +58,7 @@ body,
 
 header h1 a {
   display: block;
-  inline-size: 140px;
+  inline-size: 100%;
   font-family: var(--font-family-display), Georgia, serif;
 }
 
@@ -78,6 +83,10 @@ header h1 a {
   --code-bg: rgb(55, 56, 62);
   --hljs-bg: rgb(46, 46, 51);
   --muted-text-color: #b3b3b3;
+  --link-color: #d98b96;
+  --link-hover-color: #f0b7bf;
+  --header-title-color: #c76470;
+  --footer-text-color: #7b555d;
 }
 
 .dark-mode-off:root {
@@ -100,6 +109,10 @@ header h1 a {
   --code-bg: rgb(223, 223, 223);
   --hljs-bg: rgb(28, 29, 33);
   --muted-text-color: #707070;
+  --link-color: var(--brand-burgundy);
+  --link-hover-color: var(--brand-burgundy-dark);
+  --header-title-color: var(--brand-burgundy);
+  --footer-text-color: #6f4f55;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -123,6 +136,10 @@ header h1 a {
     --code-bg: rgb(55, 56, 62);
     --hljs-bg: rgb(46, 46, 51);
     --muted-text-color: #b3b3b3;
+    --link-color: #d98b96;
+    --link-hover-color: #f0b7bf;
+    --header-title-color: #c76470;
+    --footer-text-color: #7b555d;
   }
 }
 
@@ -147,6 +164,10 @@ header h1 a {
     --code-bg: rgb(223, 223, 223);
     --hljs-bg: rgb(28, 29, 33);
     --muted-text-color: #707070;
+    --link-color: var(--brand-burgundy);
+    --link-hover-color: var(--brand-burgundy-dark);
+    --header-title-color: var(--brand-burgundy);
+    --footer-text-color: #6f4f55;
   }
 }
 
@@ -227,14 +248,14 @@ h6:hover .anchor {
 }
 
 a {
-  color: var(--brand-burgundy);
+  color: var(--link-color);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
 
 a:hover {
-  color: var(--brand-burgundy-dark);
+  color: var(--link-hover-color);
 }
 
 a code {
@@ -256,7 +277,8 @@ li {
 
 .content-container section li a {
   font-family: var(--font-family-display), Georgia, serif;
-  font-size: 1.05em;
+  font-size: var(--display-min-size);
+  line-height: 1.25;
 }
 
 strong {
@@ -294,7 +316,7 @@ header > div {
 header {
   background-color: var(--bg-color);
   padding-block-end: 10px;
-  margin-block: 20px;
+  margin-block: 20px 34px;
   transition: background-color 0.2s;
 }
 
@@ -310,20 +332,20 @@ header h1,
 header h1 a {
   font-family: var(--font-family-display), Georgia, serif;
   font-weight: 400;
-  font-size: 1.1em;
-  line-height: 44px;
+  font-size: 32px;
+  line-height: 1.2;
   margin-block: 0;
   margin-inline: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  inline-size: 250px;
+  inline-size: min(420px, calc(100vw - 100px));
   padding-block-start: 2px;
 }
 
 header h1 a {
   text-decoration: none;
-  color: var(--brand-burgundy);
+  color: var(--header-title-color);
 }
 
 header h1 a:hover {
@@ -346,7 +368,7 @@ p a:hover {
 
 /* Toggle Switch Styles */
 .toggle-switch {
-  visibility: hidden;
+  visibility: visible;
   position: relative;
   inline-size: 40px;
   block-size: 20px;
@@ -412,7 +434,7 @@ h3,
 }
 
 h1 {
-  font-size: 2.45em;
+  font-size: 48px;
   margin-block-start: 1em;
   margin-block-end: 0em;
   font-weight: 400;
@@ -420,25 +442,34 @@ h1 {
 }
 
 h1.smaller {
-  font-size: 1.65em;
+  font-size: 42px;
 }
 
 h2 {
-  font-size: 1.35em;
-  margin-block-start: 1em;
+  font-size: 36px;
+  margin-block-start: 1.25em;
   margin-block-end: 0.5em;
   font-weight: 400;
 }
 
+.content-container section + section > h2 {
+  font-family: var(--font-family-base), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  line-height: 1.6;
+  margin-block-start: 2em;
+  margin-block-end: 0.75em;
+}
+
 h3 {
-  font-size: 1.1em;
+  font-size: 32px;
   margin-block-start: 1em;
   margin-block-end: 0.5em;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 1.1em;
+  font-size: 30px;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
   font-weight: 400;
@@ -451,16 +482,37 @@ center {
 
 /* Mobile Typography */
 @media (max-width: 1076px) {
+  header h1,
+  header h1 a {
+    font-size: 30px;
+  }
+
   h1 {
-    font-size: 2.05em;
+    font-size: 40px;
+  }
+
+  h1.smaller {
+    font-size: 36px;
   }
 
   h2 {
-    font-size: 1.3em;
+    font-size: 34px;
+  }
+
+  .content-container section + section > h2 {
+    font-size: var(--font-size-base);
   }
 
   h3 {
-    font-size: 1.05em;
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  .content-container section li a {
+    font-size: 30px;
   }
 }
 
@@ -613,6 +665,7 @@ footer {
   padding-block: 28px;
   padding-inline: 0;
   background-color: var(--brand-pink);
+  color: var(--footer-text-color);
   transition: background-color 0.2s ease;
 }
 
@@ -627,7 +680,7 @@ footer {
 .footer-content {
   font-size: 0.8em;
   text-align: center;
-  color: var(--text-color);
+  color: var(--footer-text-color);
   opacity: 0.7;
 }
 
@@ -652,7 +705,7 @@ footer {
 }
 
 .privacy-policy-link a {
-  color: var(--text-color);
+  color: var(--footer-text-color);
   text-decoration: none;
   opacity: 0.7;
   transition: opacity 0.2s ease;
