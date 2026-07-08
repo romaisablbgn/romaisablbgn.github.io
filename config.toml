@@ -7,7 +7,7 @@ mainSections = ["posts"]
 
 [params]
   description = "A personal learning journal on Data Science, and Open-source tools."
-  colorScheme = "light"
+  colorScheme = "toggle"
   disableFontPreload = true
 
 [params.author]
