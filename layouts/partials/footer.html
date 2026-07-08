@@ -1,0 +1,17 @@
+<footer>
+  <div class="footer-content">
+    {{- with .Site.Params.links }}
+    <p class="footer-links">
+      {{- range . }}
+      <a href="{{ .url }}" rel="me noopener" target="_blank">{{ .name }}</a>
+      {{- end }}
+    </p>
+    {{- end }}
+
+    {{- with .Site.Copyright }}
+    <p>{{ . }}</p>
+    {{- else }}
+    <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+    {{- end }}
+  </div>
+</footer>
