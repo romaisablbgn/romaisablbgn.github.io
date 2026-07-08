@@ -2,6 +2,7 @@
 subtitle: 
 description: "A personal learning journal on Python, R, SQL, data science, and open-source tools."
 ---
+![Romaisa](posts/roma-hero-page.png)
 
 Part accountant, part web designer, and part data science student. I like making sense of messy things such as numbers, websites, and systems.
 
