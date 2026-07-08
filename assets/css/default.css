@@ -316,7 +316,7 @@ header > div {
 header {
   background-color: var(--bg-color);
   padding-block-end: 10px;
-  margin-block: 20px 34px;
+  margin-block: 20px 14px;
   transition: background-color 0.2s;
 }
 
@@ -784,4 +784,8 @@ footer {
   display: block;
   margin-block: 1em;
   margin-inline: auto;
+}
+
+.content-container section:first-child > p:first-child img {
+  margin-block-start: 0;
 }
