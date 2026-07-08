@@ -39,8 +39,8 @@
   --highlight-color: rgba(116, 37, 46, 0.16);
   --link-color: var(--brand-burgundy);
   --link-hover-color: var(--brand-burgundy-dark);
-  --header-title-color: var(--brand-burgundy);
-  --footer-text-color: #6f4f55;
+  --header-title-color: #2d2d2d;
+  --footer-text-color: #5c1d25;
   --font-family-base: "Mulish";
   --font-family-display: "Instrument Serif";
   --font-size-base: 18px;
@@ -85,8 +85,8 @@ header h1 a {
   --muted-text-color: #b3b3b3;
   --link-color: #d98b96;
   --link-hover-color: #f0b7bf;
-  --header-title-color: #c76470;
-  --footer-text-color: #7b555d;
+  --header-title-color: #f7f4f2;
+  --footer-text-color: #5c1d25;
 }
 
 .dark-mode-off:root {
@@ -111,8 +111,8 @@ header h1 a {
   --muted-text-color: #707070;
   --link-color: var(--brand-burgundy);
   --link-hover-color: var(--brand-burgundy-dark);
-  --header-title-color: var(--brand-burgundy);
-  --footer-text-color: #6f4f55;
+  --header-title-color: #2d2d2d;
+  --footer-text-color: #5c1d25;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -138,8 +138,8 @@ header h1 a {
     --muted-text-color: #b3b3b3;
     --link-color: #d98b96;
     --link-hover-color: #f0b7bf;
-    --header-title-color: #c76470;
-    --footer-text-color: #7b555d;
+    --header-title-color: #f7f4f2;
+    --footer-text-color: #5c1d25;
   }
 }
 
@@ -166,8 +166,8 @@ header h1 a {
     --muted-text-color: #707070;
     --link-color: var(--brand-burgundy);
     --link-hover-color: var(--brand-burgundy-dark);
-    --header-title-color: var(--brand-burgundy);
-    --footer-text-color: #6f4f55;
+    --header-title-color: #2d2d2d;
+    --footer-text-color: #5c1d25;
   }
 }
 
@@ -469,11 +469,13 @@ h3 {
 }
 
 h4 {
-  font-size: 30px;
+  font-family: var(--font-family-base), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1.1em;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
   font-weight: 400;
   font-style: italic;
+  line-height: 1.6;
 }
 
 center {
@@ -508,7 +510,7 @@ center {
   }
 
   h4 {
-    font-size: 30px;
+    font-size: 1.1em;
   }
 
   .content-container section li a {
@@ -681,7 +683,7 @@ footer {
   font-size: 0.8em;
   text-align: center;
   color: var(--footer-text-color);
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .footer-links {
@@ -696,6 +698,7 @@ footer {
   font-family: var(--font-family-base), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 700;
   text-decoration: none;
+  color: var(--footer-text-color);
 }
 
 .privacy-policy-link {
