@@ -315,8 +315,8 @@ header > div {
 /* Header Styles */
 header {
   background-color: var(--bg-color);
-  padding-block-end: 10px;
-  margin-block: 20px 14px;
+  padding-block-end: 0;
+  margin-block: 20px 0;
   transition: background-color 0.2s;
 }
 
@@ -786,6 +786,14 @@ footer {
   margin-inline: auto;
 }
 
-.content-container section:first-child > p:first-child img {
+.content-container section:first-child > h1.smaller:empty {
+  display: none;
+}
+
+.content-container section:first-child > p:first-of-type {
+  margin-block-start: 0;
+}
+
+.content-container section:first-child > p:first-of-type img {
   margin-block-start: 0;
 }
