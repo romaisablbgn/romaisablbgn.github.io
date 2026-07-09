@@ -340,7 +340,7 @@ header h1 a {
   overflow: hidden;
   text-overflow: ellipsis;
   inline-size: min(420px, calc(100vw - 100px));
-  padding-block-start: 2px;
+  padding-block-start: 10px;
 }
 
 header h1 a {
