@@ -360,7 +360,7 @@ p a:hover {
 .header-controls {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
   opacity: 1;
   pointer-events: auto;
   transition: opacity 0.2s ease;
