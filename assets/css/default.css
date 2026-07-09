@@ -340,7 +340,7 @@ header h1 a {
   overflow: hidden;
   text-overflow: ellipsis;
   inline-size: min(420px, calc(100vw - 100px));
-  padding-block-start: 10px;
+  padding-block-start: 2px;
 }
 
 header h1 a {
@@ -360,7 +360,7 @@ p a:hover {
 .header-controls {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
   opacity: 1;
   pointer-events: auto;
   transition: opacity 0.2s ease;
