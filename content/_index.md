@@ -1,6 +1,6 @@
 ---
 subtitle: 
-description: "A personal learning journal on Python, R, SQL, data science, and open-source tools."
+description: "A personal blog about programming, AI, data analysis, and the messy process of learning Data Science."
 ---
 ![Romaisa](posts/roma-hero-page.png)
 
