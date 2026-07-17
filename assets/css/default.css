@@ -325,7 +325,7 @@ header > div {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  min-block-size: 35px; /* edited header */
+  min-block-size: 55px; /* edited header */
 }
 
 header h1,
