@@ -1,17 +1,21 @@
 baseURL = "https://romaisablbgn.github.io/"
 languageCode = "en-us"
 title = "romaisa"
-copyright = "By © 2026 Romaisa Balabagan"
+copyright = "© 2026 Romaisa Balabagan"
 
 mainSections = ["posts"]
 
 [params]
-  description = "A personal learning journal on Data Science, and Open-source tools."
+  description = "A personal blog about programming, AI, data analysis, and the messy process of learning Data Science."
   colorScheme = "toggle"
   disableFontPreload = true
 
 [params.author]
   name = "Romaisa Balabagan"
+
+[[params.links]]
+  name = "GitHub"
+  url = "https://github.com/romaisablbgn"
 
 [[params.links]]
   name = "LinkedIn"
