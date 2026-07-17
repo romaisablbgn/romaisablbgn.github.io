@@ -57,10 +57,10 @@ Main content lives in:
 content
 ```
 
-Custom styling lives in:
+Styling lives in:
 
 ```text
-assets/css/custom.css
+assets/css/default.css
 ```
 
 ---
