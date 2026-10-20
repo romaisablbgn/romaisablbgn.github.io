@@ -42,7 +42,21 @@ const texts = [
   "clean data"
 ];
 
-// Word categories for distinct font styling
+// Categorized Font Pool Classes (No Pacifico)
+const handwritingClasses = [
+  "handwriting",
+  "handwriting-lavishly",
+  "handwriting-dynalight",
+  "handwriting-yesteryear",
+  "handwriting-chilanka"
+];
+
+const cleanSansClasses = [
+  "clean-sans",
+  "clean-jua"
+];
+
+// Category lists
 const greetings = [
   "hello", "salaam", "kumusta", "mabuhay", "hi", "hey", "howdy", "welcome", "selamat datang", "apa khabar"
 ];
@@ -51,14 +65,19 @@ const techCodeWords = [
   "CSS", "html", "javascript", "python", "SQL", "R", "pandas", "algorithms"
 ];
 
-// Helper to assign different font classes for visual variety
+// Helper to assign diverse font classes based on word type
 function applyFontVariation(span, text) {
   if (greetings.includes(text)) {
-    span.classList.add("handwriting"); // Cursive/casual for friendly greetings
+    // Pick a random handwriting/cursive style
+    const randomHandwriting = handwritingClasses[Math.floor(Math.random() * handwritingClasses.length)];
+    span.classList.add(randomHandwriting);
   } else if (techCodeWords.includes(text)) {
-    span.classList.add("tech-mono");   // Monospace style for coding/data tools
+    // Monospace style for coding/data tools
+    span.classList.add("tech-mono");
   } else {
-    span.classList.add("clean-sans");   // Modern sans-serif for design & analytics terms
+    // Pick between Space Grotesk/Mulish or Jua
+    const randomSans = cleanSansClasses[Math.floor(Math.random() * cleanSansClasses.length)];
+    span.classList.add(randomSans);
   }
 }
 

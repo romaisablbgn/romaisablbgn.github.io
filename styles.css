@@ -1,9 +1,9 @@
 /* Google Fonts Imports */
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Mulish:ital,wght@0,300..900;1,300..900&family=Pacifico&family=Playwrite+AU+TAS:wght@100..400&family=Space+Grotesk:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&family=Dynalight&family=Fira+Code:wght@400;600&family=Jua&family=Lavishly+Yours&family=Mulish:ital,wght@0,300..900;1,300..900&family=Playwrite+AU+TAS:wght@100..400&family=Space+Grotesk:wght@400;600&family=Yesteryear&display=swap");
 
 /* Font Class Assignments */
 .floating-text.handwriting {
-  font-family: "Playwrite AU TAS", "Pacifico", cursive;
+  font-family: "Playwrite AU TAS", cursive;
   font-size: 22px !important;
   font-weight: 600;
   letter-spacing: 1px;
@@ -20,6 +20,38 @@
   font-family: "Space Grotesk", "Mulish", sans-serif;
   font-size: 20px !important;
   font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Additional Handwriting & Sans Font Classes */
+.floating-text.handwriting-lavishly {
+  font-family: "Lavishly Yours", cursive;
+  font-size: 26px !important;
+  font-weight: 400;
+}
+
+.floating-text.handwriting-dynalight {
+  font-family: "Dynalight", cursive;
+  font-size: 24px !important;
+  font-weight: 400;
+}
+
+.floating-text.handwriting-yesteryear {
+  font-family: "Yesteryear", cursive;
+  font-size: 24px !important;
+  font-weight: 400;
+}
+
+.floating-text.handwriting-chilanka {
+  font-family: "Chilanka", cursive;
+  font-size: 20px !important;
+  font-weight: 400;
+}
+
+.floating-text.clean-jua {
+  font-family: "Jua", sans-serif;
+  font-size: 20px !important;
+  font-weight: 400;
   letter-spacing: 0.5px;
 }
 
