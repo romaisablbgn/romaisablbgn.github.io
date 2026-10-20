@@ -38,6 +38,7 @@ This site is built with pure, static web technologies:
 - **Vanilla JavaScript** (Floating background generator and animation controls)
 
 ```text
+<<<<<<< HEAD
 /
 ├── index.html                  # Main Linktree hub
 ├── blog.html                   # Blog archive page
@@ -45,3 +46,29 @@ This site is built with pure, static web technologies:
 ├── script.js                   # Floating background script
 ├── assets/                     # Images, profile photo, and icons
 └── posts/                      # Individual HTML blog posts
+=======
+config.toml
+```
+
+Main content lives in:
+
+```text
+content
+```
+
+Styling lives in:
+
+```text
+assets/css/default.css
+```
+
+---
+
+## License
+
+The website content is my own unless otherwise stated.
+
+The original **dario** theme is licensed under the **MIT License**.
+
+Copyright for the original theme belongs to Grant Birki and contributors.
+>>>>>>> 02960ddb502063f73ab2634e003d43ffe22367d5
