@@ -35,7 +35,7 @@ a,
 button,
 .link-button,
 .avatar img {
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><path d="M14 2l3.09 9.51L27 14l-9.91 2.49L14 26l-3.09-9.51L1 14l9.91-2.49L14 2z" fill="%23ffb3d9" stroke="%23ff99cc" stroke-width="1.5"/></svg>')
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><path d="M14 2l3.09 9.51L27 14l-9.91 2.49L14 26l-3.09-9.51L1 14l9.91-2.49L14 2z" fill="%23EDCBCE" stroke="%2374252e" stroke-width="1.5"/></svg>')
       14 14,
     pointer !important;
 }
@@ -52,7 +52,7 @@ body {
   color: #fff;
   position: relative;
   overflow-x: hidden;
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="%23ffb3d9" opacity="0.8"/><circle cx="12" cy="12" r="4" fill="%23ff99cc"/></svg>')
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="%23EDCBCE" opacity="0.8"/><circle cx="12" cy="12" r="4" fill="%2374252e"/></svg>')
       12 12,
     auto;
 }
@@ -85,7 +85,7 @@ body {
   position: absolute;
   font-size: 18px;
   font-weight: 300;
-  color: #ffb3d9;
+  color: #EDCBCE;
   animation: float linear infinite;
   white-space: nowrap;
   user-select: none;
@@ -265,8 +265,8 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 4px solid #ffb3d9;
-  box-shadow: 0 8px 24px rgba(255, 179, 217, 0.3);
+  border: 4px solid #EDCBCE;
+  box-shadow: 0 8px 24px rgba(237, 203, 206, 0.3);
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -307,14 +307,14 @@ body {
   width: 100%;
   max-width: 400px;
   padding: 10px 20px;
-  background: rgba(255, 217, 234, 0.3);
+  background: rgba(237, 203, 206, 0.3);
   color: #fff;
   text-decoration: none;
   border-radius: 20px;
   font-size: 14px;
   font-weight: 500;
   transition: all 0.3s ease;
-  border: 1px solid rgba(255, 217, 234, 0.5);
+  border: 1px solid rgba(237, 203, 206, 0.5);
 }
 
 .back-button svg {
@@ -323,8 +323,8 @@ body {
 }
 
 .back-button:hover {
-  background: rgba(255, 217, 234, 0.5);
-  border-color: #ffd9ea;
+  background: rgba(237, 203, 206, 0.5);
+  border-color: #EDCBCE;
 }
 
 /* Social Media Icons */
@@ -343,11 +343,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffd9ea;
+  background: #EDCBCE;
   border-radius: 50%;
-  color: #1a1a1a;
+  color: #74252e;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(255, 179, 217, 0.2);
+  box-shadow: 0 4px 12px rgba(237, 203, 206, 0.2);
 }
 
 .social-icon svg {
@@ -363,8 +363,8 @@ body {
 
 .social-icon:hover {
   transform: translateY(-4px) scale(1.1);
-  background: #ffe6f0;
-  box-shadow: 0 8px 20px rgba(255, 179, 217, 0.4);
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(237, 203, 206, 0.4);
 }
 
 .social-icon:active {
@@ -388,14 +388,14 @@ body {
   justify-content: center;
   gap: 12px;
   padding: 18px 24px;
-  background: #ffd9ea;
-  color: #1a1a1a;
+  background: #EDCBCE;
+  color: #74252e;
   text-decoration: none;
   border-radius: 12px;
   font-size: 16px;
   font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(255, 179, 217, 0.2);
+  box-shadow: 0 4px 12px rgba(237, 203, 206, 0.2);
   position: relative;
   overflow: hidden;
   border: none;
@@ -423,8 +423,8 @@ body {
 
 .link-button:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(255, 179, 217, 0.4);
-  background: #ffe6f0;
+  box-shadow: 0 8px 20px rgba(237, 203, 206, 0.4);
+  background: #ffffff;
 }
 
 .link-button:active {
@@ -547,9 +547,9 @@ footer {
 
 /* Alternative pink accent for variety */
 .link-button:nth-child(even) {
-  background: #ffd9ea;
+  background: #EDCBCE;
 }
 
 .link-button:nth-child(even):hover {
-  background: #ffe6f0;
+  background: #ffffff;
 }
