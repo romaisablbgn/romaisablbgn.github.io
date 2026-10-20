@@ -10,7 +10,7 @@ This repository contains the source code for my personal Linktree-style landing 
 ## About
 
 - **Main Linktree Page:** Direct, minimal navigation to my client services, social media, and projects.
-- **Blog Section:** Lightweight static HTML pages for case studies, event reflections, and personal notes.
+- **Blog Section:** Lightweight static HTML pages for case studies, events, and personal notes.
 - **Floating Background:** Interactive floating keywords representing my identity across web design, data science, and languages.
 
 ---
