@@ -1,5 +1,5 @@
 /* Google Fonts Imports */
-@import url("https://fonts.googleapis.com/css2?family=Chilanka&family=Dynalight&family=Fira+Code:wght@400;600&family=Jua&family=Lavishly+Yours&family=Mulish:ital,wght@0,300..900;1,300..900&family=Playwrite+AU+TAS:wght@100..400&family=Space+Grotesk:wght@400;600&family=Yesteryear&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&family=Dynalight&family=Fira+Code:wght@400;600&family=Lavishly+Yours&family=Mulish:ital,wght@0,300..900;1,300..900&family=Playwrite+AU+TAS:wght@100..400&family=Space+Grotesk:wght@400;600&family=Yesteryear&display=swap");
 
 /* Font Class Assignments */
 .floating-text.handwriting {
@@ -46,13 +46,6 @@
   font-family: "Chilanka", cursive;
   font-size: 20px !important;
   font-weight: 400;
-}
-
-.floating-text.clean-jua {
-  font-family: "Jua", sans-serif;
-  font-size: 20px !important;
-  font-weight: 400;
-  letter-spacing: 0.5px;
 }
 
 /* Reset and Base Styles */

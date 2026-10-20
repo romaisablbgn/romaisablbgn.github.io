@@ -75,7 +75,7 @@ function applyFontVariation(span, text) {
     // Monospace style for coding/data tools
     span.classList.add("tech-mono");
   } else {
-    // Pick between Space Grotesk/Mulish or Jua
+    // Pick between Space Grotesk/Mulish
     const randomSans = cleanSansClasses[Math.floor(Math.random() * cleanSansClasses.length)];
     span.classList.add(randomSans);
   }
